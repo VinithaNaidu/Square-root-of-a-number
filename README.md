@@ -22,6 +22,11 @@ Developed by:
 RegisterNumber:  
 */
 ```
+x=1
+n1=int(input())
+for i in range(100):
+    x=0.5*(x+n1/x)
+print("Square root of the number:",x)
 
 ## Output:
 ![gcd of two number](gcd.png)
